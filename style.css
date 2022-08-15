@@ -1,0 +1,13 @@
+#mainWrap{
+        border: 5px solid #FFFF00;
+        display: flex;
+        position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;
+        width: 550px;
+        height:275px;
+        border-radius: 7px;
+}
+#credits{
+    margin-left: 870px;
+    margin-top : 660px;
+    color:white
+}
