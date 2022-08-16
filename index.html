@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <title>Random qoute machine</title>
 </head>
 <body>
+  
     <div id="mainWrap">                     
 
       <div id="qouteWrap"></div>
@@ -16,6 +18,23 @@
       <div id="buttonWrap"></div>
 
     </div>    
-    <p id="credits">by KHegedus1</p>            
+    <p id="credits">by KHegedus1</p>  
+
+    <script>
+    var body = $('body');
+      var colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple'];
+      var currentIndex = 0;
+      setInterval(function () {
+         body.css({
+           backgroundColor: colors[currentIndex]
+         });
+         if (!colors[currentIndex]) {
+             currentIndex = 0;
+         } else {
+             currentIndex++;
+         }
+      });
+      </script>
 </body>
+
 </html>
