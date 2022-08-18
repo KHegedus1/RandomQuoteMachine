@@ -30,3 +30,7 @@
 body {
         transition: 700ms  ease;
   }
+
+button {
+        opacity: 0.9;
+}
