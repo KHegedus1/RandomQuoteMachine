@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+import React from 'react';
 
 function App() {
   return (
-    null
+    (<div><h1>s</h1></div>)
   );
 }
 
