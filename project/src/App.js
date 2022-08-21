@@ -3,15 +3,15 @@ import Quotes from './Quotes'
 import './Style.css'; 
 
 function App() { 
-  const [quote, setQuote] = useState(second)
+  const [quote, setQuote] = useState("If the wind will not serve, take to the oars.")
   return (
     <> 
     <Quotes />
     <div id ="qoute-box">
-      <div id="text"></div>
+      <div id="text">{quote}</div>
       <div id="author"></div>
-      <div><button id="new-quote"></button></div>
-      <div><button><a id="tweet-quote">ssss</a></button></div>
+      <button onClick={()=>setQuote("sfasf")}>Change Quote</button>
+      <div><a id="tweet-quote"></a></div>
     </div>
     </>
   )
