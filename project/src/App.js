@@ -1,8 +1,9 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import Quotes from './Quotes'
 import './Style.css'; 
 
 function App() { 
+  const [quote, setQuote] = useState(second)
   return (
     <> 
     <Quotes />
