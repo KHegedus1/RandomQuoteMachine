@@ -1,9 +1,10 @@
 import React from 'react';
+import Quotes from './Quotes'
 
 function App() {
   return (
-    (<div><h1>s</h1></div>)
-  );
+    <Quotes />
+  )
 }
 
 export default App;
