@@ -1,9 +1,11 @@
 import React from 'react';
 import Quotes from './Quotes'
 
-function App() {
+function App() { 
   return (
+    <> 
     <Quotes />
+    </>
   )
 }
 
