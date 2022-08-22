@@ -4,35 +4,37 @@
     width: 550px;
     height:275px;
     border-radius: 5px; 
+    padding: 10px;
 }
 #text{
     height:100px;
     width:480px;
     font-size:35px;
+    font-style: italic;
     margin: 10px;
     padding-left: 30px;
     
 }
 #author{
     height: 25px;
-    width:480px;
+    width: 480px;
     font-size:25px;
-    position: absolute;
-    margin-bottom: 10px;
     padding-left:300px
 }
 button{
-    height:50px;
-    width: 50px;
-    margin-top: 60px;
-    border-radius: 5px ; 
+    height:45px;
+    width: 45px;
+    margin-top: 70px;
+    border-radius: 4px;
+    margin-left: 50px; 
 }
 #tweet-quote{
-font-size: 22px;
+height: 45px;
+font-size: 20px;
 }
 #newQuote{
-margin-left:350px;
-height: 40px;
+margin-left:300px;
+height: 45px;
 width: 100px;
 }
 #credits{

@@ -14,10 +14,8 @@ function App() {
     <div id ="qoute-box">
       <div id="text"><FaQuoteLeft />{quote} <FaQuoteRight /></div>
       <div id="author">- {author}</div>
-      <div id="linija">
-      <button><a id="tweet-quote"><FaTwitter /></a></button>
-      <button id ="newQuote" onClick={()=>setQuote(" Citat 2 test ")&setAuthor("autor 2555555555 test")}>New Quote</button>
-      </div>
+      <div id ="tweet-quote"><button ><a><FaTwitter /></a></button></div>
+      <div id="newQuote"><button  onClick={()=>setQuote(" Citat 2 test ")&setAuthor("autor 2555555555 test")}>New Quote</button></div>
     </div>
     <p id="credits">by KHegedus1</p> 
     </>
