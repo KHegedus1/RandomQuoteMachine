@@ -1,8 +1,8 @@
 import React ,{useState} from 'react';
 import Quotes from './Quotes';
 import './Style.css'; 
-import {FaTwitter} from "react-icons/fa";
-
+import {FaTwitter} from "react-icons/fa"; 
+import {FaQuoteLeft} from "react-icons/fa";
 
 
 function App() { 
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <div id ="qoute-box">
-      <div id="text">{quote}</div>
+      <div id="text"><FaQuoteLeft />{quote}</div>
       <div id="author">{author}</div>
       <button onClick={()=>setQuote("Citat 2 test")&setAuthor("autor 2 test")}>New Quote</button>
       <button><a id="tweet-quote"><FaTwitter /></a></button>
