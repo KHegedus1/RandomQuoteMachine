@@ -15,7 +15,7 @@ function App() {
       <div id="text"><FaQuoteLeft />{quote} <FaQuoteRight /></div>
       <div id="author">- {author}</div>
       <div id="flex">
-      <button id ="tweet-quote" ><a><FaTwitter /></a></button>
+      <button id ="tweet-quote" ><a href='twitter.com/intent/tweet'><FaTwitter /></a></button>
       <button id ="newQuote" onClick={()=>setQuote(" Citat 2 test ")&setAuthor("autor 2555555555 test")}>New Quote</button>
       </div>
     </div>
