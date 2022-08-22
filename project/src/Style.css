@@ -1,7 +1,4 @@
-Quotes{    color:white;
-    background-color: white;
-    text-decoration-color: white;
-}
+
 #qoute-box{
     background-color:red; /* Test,kasnije mora biti bijelo */
     position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;
