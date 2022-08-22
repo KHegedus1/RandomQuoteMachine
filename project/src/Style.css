@@ -30,15 +30,15 @@ button{
     display: flex;
 }
 #tweet-quote{
-margin-left: 50px;
-height: 45px;
-width: 45px;
-font-size: 20px;
+    margin-left: 50px;
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
 }
 #newQuote{
-margin-left:305px;
-height: 45px;
-width: 100px;
+    margin-left:305px;
+    height: 45px;
+    width: 100px;
 }
 #credits{
     margin-left: 870px;
