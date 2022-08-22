@@ -10,7 +10,7 @@ function App() {
     <div id ="qoute-box">
       <div id="text">{quote}</div>
       <div id="author"></div>
-      <button onClick={()=>setQuote("sfasf")}>Change Quote</button>
+      <button onClick={()=>setQuote("Citat 2 test")}>Change Quote</button>
       <div><a id="tweet-quote"></a></div>
     </div>
     </>
