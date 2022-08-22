@@ -12,7 +12,7 @@ function App() {
     <>
     <div id ="qoute-box">
       <div id="text"><FaQuoteLeft />{quote}</div>
-      <div id="author">{author}</div>
+      <div id="author">- {author}</div>
       <button onClick={()=>setQuote("Citat 2 test")&setAuthor("autor 2 test")}>New Quote</button>
       <button><a id="tweet-quote"><FaTwitter /></a></button>
     </div>
