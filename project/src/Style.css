@@ -1,6 +1,9 @@
 body{
     background-color: black;
 }
+a{
+    color: black;
+}
 #qoute-box{
     background-color:white; 
     position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;
@@ -28,6 +31,7 @@ button{
     height: 45px;
     margin-top: 70px;
     border-radius: 4px;
+    background-color: white;
 }
 #flex{
     display: flex;
@@ -37,8 +41,9 @@ button{
     height: 45px;
     width: 45px;
     font-size: 20px;
-    color:green;
+    color:black;
 }
+
 #newQuote{
     margin-left: 305px;
     height: 45px;
@@ -47,5 +52,4 @@ button{
 #credits{
     margin-left: 870px;
     margin-top : 670px;
-    color:white;
 }
