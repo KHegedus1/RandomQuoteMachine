@@ -1,5 +1,5 @@
 #qoute-box{
-    background-color:red; /* Test,kasnije mora biti bijelo */
+    background-color:white; 
     position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;
     width: 550px;
     height: 275px;
@@ -43,5 +43,5 @@ button{
 #credits{
     margin-left: 870px;
     margin-top : 670px;
-    color:blue /* privremeno */ 
+    color:white;
 }
