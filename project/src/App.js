@@ -6,8 +6,8 @@ import {FaQuoteRight} from "react-icons/fa";
 
 
 function App() { 
-  const [quote, setQuote] = useState("");
-  const pozadina = ["#00FFFF","#faebd7","#7fffd4","#483d8b","#ff1493","#ffd700"];
+  const [quote, setQuote] = useState("ref={boje}");
+  const pozadina = ["#660066","#801a00","#00b300","#483d8b","#ff1493","#ffd700"];
   const boje = useRef();
   const initialQuote = ()=>{
     fetch("https://type.fit/api/quotes")
@@ -35,7 +35,6 @@ function App() {
       <button  id ="newQuote" onClick={()=>initialQuote()}>New Quote</button>
       </div>
     </div>
-    <body></body>
     <p id="credits">by KHegedus1</p> 
     </>
   )
