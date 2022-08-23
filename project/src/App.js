@@ -16,7 +16,10 @@ function App() {
       setQuote(data[rand]);
     });
   };
- 
+
+  useEffect(() => {
+    initialQuote(); 
+  },[])
 
   return (
     <>
