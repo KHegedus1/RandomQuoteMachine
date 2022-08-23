@@ -9,7 +9,7 @@
 #text{
     height:100px;
     width:480px;
-    font-size:35px;
+    font-size:25px;
     font-style: italic;
     margin: 10px;
     padding-left: 30px;
@@ -18,7 +18,7 @@
 #author{
     height: 25px;
     width: 480px;
-    font-size:25px;
+    font-size:20px;
     padding-left:300px
 }
 button{
