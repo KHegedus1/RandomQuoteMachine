@@ -1,4 +1,4 @@
-import React ,{useState} from 'react';
+import React ,{useState,useEffect} from 'react';
 import './Style.css'; 
 import {FaTwitter} from "react-icons/fa"; 
 import {FaQuoteLeft} from "react-icons/fa";
