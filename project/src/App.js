@@ -22,19 +22,20 @@ function App() {
     initialQuote(); 
   },[])
   useEffect(() =>{
-    boje.current.style.color= pozadina[Math.floor(Math.random * pozadina.length)];
+    boje.current.style.color= pozadina[Math.floor(Math.random() * pozadina.length)];
   },[quote])
 
   return (
     <>
-    <div id ="qoute-box">
-      <div ref={boje} id="text"><FaQuoteLeft />{quote.text} <FaQuoteRight /></div>
+    <div ref={boje} id ="qoute-box">
+      <div id="text"><FaQuoteLeft />{quote.text} <FaQuoteRight /></div>
       <div id="author">- {quote.author}</div>
       <div id="flex">
-      <button ref={boje} id ="tweet-quote" ><a href={`https://twitter.com/intent/tweet?text=${quote.text}`} target="_blank" rel="noopener noreferrer"><FaTwitter /></a></button>
-      <button ref={boje} id ="newQuote" onClick={()=>initialQuote()}>New Quote</button>
+      <button  id ="tweet-quote" ><a href={`https://twitter.com/intent/tweet?text=${quote.text}`} target="_blank" rel="noopener noreferrer"><FaTwitter /></a></button>
+      <button  id ="newQuote" onClick={()=>initialQuote()}>New Quote</button>
       </div>
     </div>
+    <body></body>
     <p id="credits">by KHegedus1</p> 
     </>
   )
