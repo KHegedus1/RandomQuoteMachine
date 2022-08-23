@@ -7,7 +7,7 @@ import {FaQuoteRight} from "react-icons/fa";
 
 function App() { 
   const [quote, setQuote] = useState("ref={boje}");
-  const pozadina = ["#660066","#801a00","#00b300","#483d8b","#ff1493","#ffd700"];
+  const pozadina = ["#80ffff","#33ff33","#00b300","#ffff00","#0099ff ","#c44dff"];
   const boje = useRef();
   const initialQuote = ()=>{
     fetch("https://type.fit/api/quotes")
@@ -17,7 +17,6 @@ function App() {
       setQuote(data[rand]);
     });
   };
-
   useEffect(() => {
     initialQuote(); 
   },[])
@@ -27,7 +26,7 @@ function App() {
 
   return (
     <>
-    <div ref={boje} id ="qoute-box">
+    <div id ="qoute-box">
       <div id="text"><FaQuoteLeft />{quote.text} <FaQuoteRight /></div>
       <div id="author">- {quote.author}</div>
       <div id="flex">
@@ -35,7 +34,7 @@ function App() {
       <button  id ="newQuote" onClick={()=>initialQuote()}>New Quote</button>
       </div>
     </div>
-    <p id="credits">by KHegedus1</p> 
+    <p ref={boje} id="credits">by KHegedus1</p> 
     </>
   )
 }
