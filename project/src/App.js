@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from 'react';
+import React ,{useState,useEffect,useRef} from 'react';
 import './Style.css'; 
 import {FaTwitter} from "react-icons/fa"; 
 import {FaQuoteLeft} from "react-icons/fa";
@@ -7,7 +7,7 @@ import {FaQuoteRight} from "react-icons/fa";
 
 function App() { 
   const [quote, setQuote] = useState("");
-
+  const pozadina = ["#00FFFF","#faebd7","#7fffd4","#483d8b","#ff1493","#ffd700"];
   const initialQuote = ()=>{
     fetch("https://type.fit/api/quotes")
     .then((res) =>res.json())
